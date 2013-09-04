@@ -23,7 +23,9 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/samsung/vibrantmtd/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/vibrantmtd/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/vibrantmtd/proprietary/libclientgps.so:system/lib/libclientgps.so \
+    vendor/samsung/vibrantmtd/proprietary/gps.xml:system/vendor/etc/gps.xml \
+    vendor/samsung/vibrantmtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
+    vendor/samsung/galaxysmtd/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
     vendor/samsung/vibrantmtd/proprietary/libsamsung_hwlegacy.so:system/vendor/lib/libsamsung_hwlegacy.so \
     vendor/samsung/vibrantmtd/proprietary/libril.so:system/lib/libril.so \
     vendor/samsung/vibrantmtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
