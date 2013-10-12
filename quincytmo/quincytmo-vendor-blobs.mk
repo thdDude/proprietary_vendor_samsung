@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincytmo/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/quincytmo/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/quincytmo/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
-	vendor/samsung/quincytmo/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/quincytmo/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/quincytmo/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
 	vendor/samsung/quincytmo/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -107,7 +106,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincytmo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/samsung/quincytmo/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 	vendor/samsung/quincytmo/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-	vendor/samsung/quincytmo/proprietary/bin/thermald:system/bin/thermald \
 	vendor/samsung/quincytmo/proprietary/etc/thermald.conf:system/etc/thermald.conf \
 	vendor/samsung/quincytmo/proprietary/lib/libdsm.so:system/lib/libdsm.so \
 	vendor/samsung/quincytmo/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
