@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serrano-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/samsung/serrano-common/proprietary/vendor/lib/libc2d2-a3xx.so:system/vendor/lib/libc2d2-a3xx.so \
+    vendor/samsung/serrano-common/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
@@ -49,12 +49,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serrano-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/serrano-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/samsung/serrano-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/samsung/serrano-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/samsung/serrano-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/serrano-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/serrano-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/serrano-common/proprietary/bin/sec-ril:system/bin/sec-ril \
-    vendor/samsung/serrano-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/serrano-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/serrano-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/samsung/serrano-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
